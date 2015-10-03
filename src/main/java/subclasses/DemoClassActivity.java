@@ -18,7 +18,5 @@ package subclasses;
  *
  */
 public interface DemoClassActivity {
-	public abstract void demoClassActivity() {
-		
-	}
+	void demoClassActivity();
 }

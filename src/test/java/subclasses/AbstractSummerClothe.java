@@ -24,9 +24,11 @@ package subclasses;
  */
 public abstract class AbstractSummerClothe extends AbstractClothe {
 
+	private String summerStyleType;
+
 	@Override
 	public void displayClothes() {
 		super.displayClothes();
-		System.out.println("It sure is cold out!");
+		System.out.println("I'm feeling the heat...");
 	}
 }
