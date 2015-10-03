@@ -1,5 +1,5 @@
 /**
- *   File Name: ClothingTest.java<br>
+ *   File Name: DemoClassActivity.java<br>
  *
  *   Yutaka<br>
  *   Java Boot Camp Exercise<br>
@@ -10,8 +10,6 @@
 
 package subclasses;
 
-import org.junit.Test;
-
 /**
  * 
  * @author Yutaka
@@ -19,11 +17,8 @@ import org.junit.Test;
  * @since 1.0
  *
  */
-public class ClothingTest {
-
-	@Test
-	public void test() {
-		// AbstractClothe clothe = new AbstractClothe();
+public interface DemoClassActivity {
+	public abstract void demoClassActivity() {
+		
 	}
-
 }

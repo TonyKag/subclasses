@@ -2,7 +2,7 @@ package subclasses;
 
 import java.util.Arrays;
 
-public abstract class AbstractClothe {
+public abstract class AbstractClothe implements DemoClassActivity {
 	private String fabricType;
 	private String name;
 	private double price;
