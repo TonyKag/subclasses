@@ -19,6 +19,8 @@ package subclasses;
  */
 public class WinterJacket extends AbstractWinterClothe {
 
+	boolean hasHood;
+
 	/**
 	 * @see subclasses.DemoClassActivity#demoClassActivity()
 	 */
@@ -30,14 +32,33 @@ public class WinterJacket extends AbstractWinterClothe {
 
 	}
 
+	/**
+	 * @return the hasHood
+	 */
+	public boolean isHasHood() {
+		return hasHood;
+	}
+
 	@Override
 	public void putClothesOnFemale() {
 		System.out.println("The female put on the " + getName() + " very gently");
+		System.out.println("He does not care if having a hood is " + this.isHasHood() + " or " + this.isHasHood());
+
 	}
 
 	@Override
 	public void putClothesOnMale() {
 		System.out.println("The male put on the " + getName() + " very agressively");
+		System.out.println("She likes " + this.isHasHood() + " or " + this.isHasHood());
+
+	}
+
+	/**
+	 * @param hasHood
+	 *            the hasHood to set
+	 */
+	public void setHasHood(boolean hasHood) {
+		this.hasHood = hasHood;
 	}
 
 }

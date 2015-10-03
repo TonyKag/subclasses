@@ -19,6 +19,8 @@ package subclasses;
  */
 public class WinterAccessory extends AbstractWinterClothe {
 
+	private String accType;
+
 	/**
 	 * @see subclasses.DemoClassActivity#demoClassActivity()
 	 */
@@ -30,6 +32,13 @@ public class WinterAccessory extends AbstractWinterClothe {
 
 	}
 
+	/**
+	 * @return the accType
+	 */
+	public String getAccType() {
+		return accType;
+	}
+
 	@Override
 	public void putClothesOnFemale() {
 		System.out.println("The female put on the " + getName() + " very gently");
@@ -38,6 +47,15 @@ public class WinterAccessory extends AbstractWinterClothe {
 	@Override
 	public void putClothesOnMale() {
 		System.out.println("The male put on the " + getName() + " very agressively");
+
+	}
+
+	/**
+	 * @param accType
+	 *            the accType to set
+	 */
+	public void setAccType(String accType) {
+		this.accType = accType;
 	}
 
 }
