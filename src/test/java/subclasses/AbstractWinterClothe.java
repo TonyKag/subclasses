@@ -24,9 +24,26 @@ package subclasses;
  */
 public abstract class AbstractWinterClothe extends AbstractClothe {
 
+	private String liningType;
+
 	@Override
 	public void displayClothes() {
 		super.displayClothes();
 		System.out.println("It sure is cold out!");
+	}
+
+	/**
+	 * @return the liningType
+	 */
+	public String getLiningType() {
+		return liningType;
+	}
+
+	/**
+	 * @param liningType
+	 *            the liningType to set
+	 */
+	public void setLiningType(String liningType) {
+		this.liningType = liningType;
 	}
 }
