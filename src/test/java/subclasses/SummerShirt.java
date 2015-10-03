@@ -25,7 +25,7 @@ package subclasses;
 public class SummerShirt extends AbstractSummerClothe {
 
 	/**
-	 * @see subclasses.DemoClassActivity#demoClassActivity()
+	 * @see subclasses.IDemoClassActivity#demoClassActivity()
 	 */
 	@Override
 	public void demoClassActivity() {

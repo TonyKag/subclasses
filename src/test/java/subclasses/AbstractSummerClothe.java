@@ -32,6 +32,11 @@ public abstract class AbstractSummerClothe extends AbstractClothe {
 		System.out.println("I'm feeling the heat...");
 	}
 
+	public void displaySummerStyleType() {
+		super.displayClothes();
+		System.out.println("The summer style type " + this.getSummerStyleType());
+	}
+
 	/**
 	 * @return the summerStyleType
 	 */

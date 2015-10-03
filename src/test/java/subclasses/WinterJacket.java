@@ -22,7 +22,7 @@ public class WinterJacket extends AbstractWinterClothe {
 	boolean hasHood;
 
 	/**
-	 * @see subclasses.DemoClassActivity#demoClassActivity()
+	 * @see subclasses.IDemoClassActivity#demoClassActivity()
 	 */
 	@Override
 	public void demoClassActivity() {

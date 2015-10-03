@@ -27,7 +27,7 @@ public class SummerShorts extends AbstractSummerClothe {
 	private int shortLengthSize;
 
 	/**
-	 * @see subclasses.DemoClassActivity#demoClassActivity()
+	 * @see subclasses.IDemoClassActivity#demoClassActivity()
 	 */
 	@Override
 	public void demoClassActivity() {

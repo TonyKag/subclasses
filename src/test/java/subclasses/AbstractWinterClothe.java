@@ -32,6 +32,10 @@ public abstract class AbstractWinterClothe extends AbstractClothe {
 		System.out.println("It sure is cold out!");
 	}
 
+	public void displayLiningType() {
+		System.out.println("The lining type is " + this.getLiningType());
+	}
+
 	/**
 	 * @return the liningType
 	 */

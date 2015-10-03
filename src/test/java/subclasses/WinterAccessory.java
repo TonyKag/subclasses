@@ -22,7 +22,7 @@ public class WinterAccessory extends AbstractWinterClothe {
 	private String accType;
 
 	/**
-	 * @see subclasses.DemoClassActivity#demoClassActivity()
+	 * @see subclasses.IDemoClassActivity#demoClassActivity()
 	 */
 	@Override
 	public void demoClassActivity() {
@@ -42,12 +42,13 @@ public class WinterAccessory extends AbstractWinterClothe {
 	@Override
 	public void putClothesOnFemale() {
 		System.out.println("The female put on the " + getName() + " very gently");
+		System.out.println("He likes " + this.getAccType());
 	}
 
 	@Override
 	public void putClothesOnMale() {
 		System.out.println("The male put on the " + getName() + " very agressively");
-
+		System.out.println("He dislikes " + this.getAccType());
 	}
 
 	/**

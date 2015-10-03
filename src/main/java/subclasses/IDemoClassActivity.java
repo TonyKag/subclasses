@@ -17,6 +17,6 @@ package subclasses;
  * @since 1.0
  *
  */
-public interface DemoClassActivity {
+public interface IDemoClassActivity {
 	void demoClassActivity();
 }

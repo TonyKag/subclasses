@@ -23,7 +23,13 @@ public class ClothingTest {
 
 	@Test
 	public void test() {
-		// AbstractClothe clothe = new AbstractClothe();
+
+		AbstractClothe clothes[] = { new WinterJacket(), new WinterAccessory(), new SummerShirt(), new SummerShorts() };
+
+		for (AbstractClothe clothe : clothes) {
+			clothe.demoClassActivity();
+		}
+
 	}
 
 }
