@@ -27,6 +27,11 @@ public abstract class AbstractClothe implements DemoClassActivity {
 		this.size = size;
 	}
 
+	public void customizeClothes() {
+		System.out.println("The user has decided to customize their " + this.getName() + " which is made of "
+				+ this.getFabricType() + " and costs " + (this.getPrice() + 20.00) + " to be customized.");
+	}
+
 	/**
 	 * @param fabricType
 	 * @param name
