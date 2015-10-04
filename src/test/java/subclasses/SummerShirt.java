@@ -24,6 +24,8 @@ package subclasses;
  */
 public class SummerShirt extends AbstractSummerClothe {
 
+	private String colorType;
+
 	/**
 	 * @see subclasses.IDemoClassActivity#demoClassActivity()
 	 */

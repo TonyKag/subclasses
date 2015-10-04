@@ -26,6 +26,12 @@ public abstract class AbstractSummerClothe extends AbstractClothe {
 
 	private String summerStyleType;
 
+	public AbstractSummerClothe(String fabricType, String name, double price, String[] resistance, String size,
+			String summerStyleType) {
+		super(fabricType, name, price, resistance, size);
+		this.summerStyleType = summerStyleType;
+	}
+
 	@Override
 	public void displayClothes() {
 		super.displayClothes();

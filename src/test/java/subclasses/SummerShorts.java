@@ -26,6 +26,17 @@ public class SummerShorts extends AbstractSummerClothe {
 
 	private int shortLengthSize;
 
+	public SummerShorts() {
+		super("Summer Shorts", "small", 34.59, new String[] { "water" }, 42, "Beach Style");
+		this.shortLengthSize = shortLengthSize;
+	}
+
+	public SummerShorts(String fabricType, String name, double price, String[] resistance, String size,
+			String summerStyleType, int shortLengthSize) {
+		super(fabricType, name, price, resistance, size, summerStyleType);
+		this.shortLengthSize = shortLengthSize;
+	}
+
 	/**
 	 * @see subclasses.IDemoClassActivity#demoClassActivity()
 	 */
@@ -34,7 +45,6 @@ public class SummerShorts extends AbstractSummerClothe {
 		System.out.println("Summer Shirt Selection");
 		this.displayClothes();
 		this.customizeClothes();
-
 	}
 
 	/**
@@ -61,4 +71,5 @@ public class SummerShorts extends AbstractSummerClothe {
 		System.out.println("The male put on the " + getName() + " very agreesivly.");
 		System.out.println("The male thinks " + this.getShortLengthSize() + " is just the right size.");
 	}
+
 }

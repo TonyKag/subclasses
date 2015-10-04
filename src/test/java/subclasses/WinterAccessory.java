@@ -21,6 +21,18 @@ public class WinterAccessory extends AbstractWinterClothe {
 
 	private String accType;
 
+	public WinterAccessory() {
+		super("Fur", "Fur Scarf", 6.50, new String[] { "wind", "water" }, "small", "Light Padding");
+
+		this.accType = "scarf";
+	}
+
+	public WinterAccessory(String fabricType, String name, double price, String[] resistance, String size,
+			String liningType, String accType) {
+		super(fabricType, name, price, resistance, size, liningType);
+		this.accType = accType;
+	}
+
 	/**
 	 * @see subclasses.IDemoClassActivity#demoClassActivity()
 	 */

@@ -21,6 +21,12 @@ public class WinterJacket extends AbstractWinterClothe {
 
 	boolean hasHood;
 
+	public WinterJacket(String fabricType, String name, double price, String[] resistance, String size,
+			String liningType, boolean hasHood) {
+		super(fabricType, name, price, resistance, size, liningType);
+		this.hasHood = hasHood;
+	}
+
 	/**
 	 * @see subclasses.IDemoClassActivity#demoClassActivity()
 	 */

@@ -26,6 +26,12 @@ public abstract class AbstractWinterClothe extends AbstractClothe {
 
 	private String liningType;
 
+	public AbstractWinterClothe(String fabricType, String name, double price, String[] resistance, String size,
+			String liningType) {
+		super(fabricType, name, price, resistance, size);
+		this.liningType = liningType;
+	}
+
 	@Override
 	public void displayClothes() {
 		super.displayClothes();
